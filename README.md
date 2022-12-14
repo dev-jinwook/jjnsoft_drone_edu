@@ -1,4 +1,4 @@
-# jjnsoft_drone_edu
+# Drone Information Application
 
 A new Flutter project.
 
