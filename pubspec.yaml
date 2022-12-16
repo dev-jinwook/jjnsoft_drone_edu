@@ -1,5 +1,5 @@
-name: jjnsoft_drone_edu
-description: A new Flutter project.
+name: drone_portal
+description: 드론 관련 정보 안내 및 교육 서비스 제공
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -36,6 +36,18 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+  # 상태관리
+  provider: ^6.0.4
+
+  # App Close
+  double_back_to_close_app: ^2.1.0
+
+  # 로그
+  logger: ^1.1.0
+
+  # URL
+  url_launcher: ^6.1.7
 
 dev_dependencies:
   flutter_test:
