@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jjnsoft.drone.jjnsoft_drone_edu">
    <application
-        android:label="jjnsoft_drone_edu"
+        android:label="드론포털"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

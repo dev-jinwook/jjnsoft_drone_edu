@@ -19,25 +19,28 @@ class LeftMenu extends StatelessWidget {
           ListTile(
             title: Text('비행정보'),
           ),
-          Divider(),
+          const Divider(),
           ListTile(
             title: Text('필기시험'),
           ),
           ListTile(
             title: Text('실기시험'),
           ),
-          Divider(),
+          const Divider(),
           ListTile(
             title: Text('항공기상'),
             onTap: () async {
-              await launchUrl(Uri.parse('https://www.droneportal.or.kr'), mode : LaunchMode.externalApplication);
+              await launchUrl(Uri.parse('https://www.droneportal.or.kr'), mode: LaunchMode.externalApplication);
             },
           ),
           Link(
               uri: Uri.parse('https://www.droneportal.or.kr'),
               target: LinkTarget.blank,
               builder: (context, openLink) {
-                return ListTile(title: Text('드론원스톱민원서비스'), onTap: openLink,);
+                return ListTile(
+                  title: Text('드론원스톱민원서비스'),
+                  onTap: openLink,
+                );
               }),
           ListTile(
             title: Text('항공기상'),
