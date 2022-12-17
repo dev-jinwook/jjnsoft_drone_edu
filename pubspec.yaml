@@ -49,6 +49,18 @@ dependencies:
   # URL
   url_launcher: ^6.1.7
 
+  # 구글 지도
+  google_maps_flutter: ^2.2.2
+
+  # 카카오 지도
+  kakaomap_webview: ^0.6.2
+
+  # Location
+  location: ^4.2.0
+
+  # WebView
+  webview_flutter: ^3.0.4
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

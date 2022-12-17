@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/link.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../fly/fly_map_page.dart';
+
 class LeftMenu extends StatelessWidget {
   const LeftMenu({super.key});
 
@@ -18,6 +20,10 @@ class LeftMenu extends StatelessWidget {
           ),
           ListTile(
             title: Text('비행정보'),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.of(context).push(MaterialPageRoute(builder: (_) => FlyMapPage()));
+            },
           ),
           const Divider(),
           ListTile(
