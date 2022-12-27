@@ -49,9 +49,6 @@ dependencies:
   # URL
   url_launcher: ^6.1.7
 
-  # 구글 지도
-  google_maps_flutter: ^2.2.2
-
   # 카카오 지도
   kakaomap_webview: ^0.6.2
 

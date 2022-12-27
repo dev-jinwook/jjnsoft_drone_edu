@@ -34,7 +34,19 @@ class LeftMenu extends StatelessWidget {
           ),
           const Divider(),
           ListTile(
-            title: Text('항공기상'),
+            title: const Text('기상청 날씨누리'),
+            onTap: () async {
+              await launchUrl(Uri.parse('https://www.weather.go.kr/w/index.do'), mode: LaunchMode.externalApplication);
+            },
+          ),
+          ListTile(
+            title: const Text('항공기상청'),
+            onTap: () async {
+              await launchUrl(Uri.parse('https://amo.kma.go.kr'), mode: LaunchMode.externalApplication);
+            },
+          ),
+          ListTile(
+            title: const Text('드론원스톱민원서비스'),
             onTap: () async {
               await launchUrl(Uri.parse('https://www.droneportal.or.kr'), mode: LaunchMode.externalApplication);
             },
@@ -48,9 +60,6 @@ class LeftMenu extends StatelessWidget {
                   onTap: openLink,
                 );
               }),
-          ListTile(
-            title: Text('항공기상'),
-          ),
           Divider(),
           ListTile(
             title: Text('공지사항'),
